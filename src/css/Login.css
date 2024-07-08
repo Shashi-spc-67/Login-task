@@ -1,0 +1,84 @@
+/* login.css */
+.login-container {
+  max-width: 400px;
+  margin: 150px auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 100px rgba(61, 6, 200, 0.1);
+}
+
+.login-container h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-container .form-group {
+  margin-bottom: 15px;
+}
+
+.login-container .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-container .form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 255, 0.362);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .login-container {
+      margin: 20px auto;
+      padding: 20px;
+  }
+
+  .login-container h1 {
+      font-size: 1.5em;
+  }
+
+  .login-container .form-group input {
+      padding: 8px;
+  }
+
+  .login-container button {
+      padding: 8px;
+      font-size: 1em;
+  }
+}
+
+@media (min-width: 769px) {
+  .login-container {
+      margin: 150px auto;
+      padding: 40px;
+  }
+
+  .login-container h1 {
+      font-size: 2em;
+  }
+
+  .login-container .form-group input {
+      padding: 10px;
+  }
+
+  .login-container button {
+      padding: 10px;
+      font-size: 1.2em;
+  }
+}

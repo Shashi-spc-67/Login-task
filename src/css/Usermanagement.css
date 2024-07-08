@@ -1,0 +1,77 @@
+/* user-management.css */
+.user-management-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  border-radius: 10px;
+  box-shadow: 0 0 100px rgba(61, 6, 200, 0.1);
+}
+
+.user-management-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.user-management-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-management-table th, .user-management-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.user-management-table th {
+  background-color: #f4f4f4;
+}
+
+.user-management-table td button {
+  padding: 5px 10px;
+  color: white;
+  background-color: #d9534f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-management-table td button:hover {
+  background-color: #c9302c;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .user-management-container {
+      margin: 20px auto;
+      padding: 15px;
+  }
+
+  .user-management-table th, .user-management-table td {
+      padding: 8px;
+      font-size: 14px;
+  }
+
+  .user-management-table td button {
+      padding: 4px 8px;
+      font-size: 12px;
+  }
+}
+
+@media (min-width: 769px) {
+  .user-management-container {
+      margin: 50px auto;
+      padding: 20px;
+  }
+
+  .user-management-table th, .user-management-table td {
+      padding: 10px;
+      font-size: 16px;
+  }
+
+  .user-management-table td button {
+      padding: 5px 10px;
+      font-size: 14px;
+  }
+}

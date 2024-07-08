@@ -1,0 +1,83 @@
+/* navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(26, 26, 249, 0.258);
+    color: rgb(12, 9, 9);
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  
+  .navbar div {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar a {
+    color: rgb(13, 11, 11);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .navbar a:hover {
+    background-color: #4eb300;
+  }
+  
+  .navbar button {
+    background-color: #d9534f;
+    color: rgb(17, 15, 15);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .navbar button:hover {
+    background-color: #e6c7c6;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar div {
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+  
+    .navbar a,
+    .navbar button {
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .navbar {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .navbar div {
+      flex-direction: row;
+      gap: 15px;
+    }
+  
+    .navbar a,
+    .navbar button {
+      width: auto;
+      text-align: center;
+      padding: 5px 10px;
+    }
+  }
+  
